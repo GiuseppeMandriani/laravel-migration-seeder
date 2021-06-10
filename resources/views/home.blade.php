@@ -20,8 +20,10 @@
                 <hr>
             @endif
             @endforeach
-        <ul>
-        </ul>
+
+    <section class="mt-5">
+        {{$packages->links()}}
+    </section>
 
                 
     </section>
